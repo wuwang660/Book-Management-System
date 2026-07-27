@@ -1,0 +1,41 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Vue.js 设计与实现",
+      "author": "霍春阳",
+      "price": 79,
+      "category": "前端开发"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript 高级程序设计",
+      "author": "Nicholas C. Zakas",
+      "price": 128,
+      "category": "前端开发"
+    },
+    {
+      "id": 3,
+      "name": "深入理解计算机系统",
+      "author": "Randal E. Bryant",
+      "price": 139,
+      "category": "计算机基础"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "label": "管理员"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "role": "user",
+      "label": "普通用户"
+    }
+  ]
+}
