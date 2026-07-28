@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import BookManagement from "../components/BookManagement.vue";
 import Login from "../components/Login.vue";
 import { authState } from "../composables/useAuth.js";
@@ -14,7 +14,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
     routes,
 });
 
